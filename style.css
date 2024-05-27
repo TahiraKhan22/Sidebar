@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}  
+#sidebar {
+    height: 100%;
+    /* width: 40rem; */
+    position: fixed;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+  
+.sidebar a {
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color:skyblue;
+    display: block;
+    transition: 0.3s;
+
+    
+}
+  
+.sidebar a:hover {
+    color: darkblue;
+    background-color: skyblue;
+}
+  
+.close-btn {
+    position: absolute;
+    top: 9px;
+    right: 25px;
+    font-size: 50px;
+    background: none;
+    border: none;
+    color: brown;
+}
+  
+.open-btn {
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color:skyblue;
+    margin-left: 95%;
+}
+.www{
+    text-align: center;
+    display: flex;
+    list-style: none;
+    margin-top: 12rem;
+}
+#open-btn{
+    text-align: center;
+}
+.button{
+    height: 1.2rem;
+    text-align: center;
+}
